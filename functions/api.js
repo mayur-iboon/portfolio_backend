@@ -17,6 +17,6 @@ app.use("/", router);
 
 //   });
 
-const port = process.env.PORT || 3000;
-app.listen(port, () => console.log(`Server up and running on port ${port}`));
+// const port = process.env.PORT || 3000;
+// app.listen(port, () => console.log(`Server up and running on port ${port}`));
 module.exports.handler = serverless(app);
