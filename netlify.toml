@@ -1,5 +1,6 @@
 [build]
-    functions="functions"
+ functions="functions"
+command = “CI= npm run build”
 
 [[redirects]]
     to="/.netlify/functions/api:splat"
